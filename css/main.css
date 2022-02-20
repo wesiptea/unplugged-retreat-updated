@@ -476,14 +476,11 @@ input[type=button] {
   align-content: center;
   flex-basis: 95%;
   flex-flow: column wrap;
+  margin-bottom: 50px;
 }
 
 .faq h2 {
   margin-bottom: 40px;
-}
-
-.faq-content {
-  margin-bottom: 50px;
 }
 
 .faq i {
