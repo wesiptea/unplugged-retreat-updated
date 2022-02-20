@@ -285,9 +285,10 @@ footer .copyright {
 }
 
 .hero-area h1 {
-    font-size: 2.15em;
+    font-size: 2.25em;
     font-weight: 700;
     margin: 0;
+    width: 65%;
 }
 
 /* Aside */
@@ -459,7 +460,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   background-color: #527158;
-  margin-bottom: 50px;
+  margin: 50px 0 50px 0;
 }
 
 .faq .content-wrapper {
@@ -476,11 +477,6 @@ input[type=button] {
 
 .faq-content {
   margin-bottom: 50px;
-}
-
-.faq i {
-  font-size: 3em;
-  margin-bottom: 15px;
 }
 
 
@@ -619,8 +615,7 @@ input[type=button] {
   /* TABLET - Hero-area */
 
   .hero-area h1 {
-    font-size: 3em;
-    width: 90%;
+    font-size: ;
   }
 
   /* TABLET - Aside */
@@ -646,21 +641,17 @@ input[type=button] {
     flex-flow: row wrap;
     flex-basis: 45%;
     margin-right: 15px; 
-    margin: 30px 0;
-  }
-
-  .features p {
-    width: 45%;
   }
 
   .features .features-item-description {
-    width: 63%;
+    width: 70%;
+    text-align: center;
   }
 
   /* TABLET - Reviews */
   
   .reviews .content-wrapper {
-    margin: 50px 0 70px 0;
+    margin: 50px 0 50px 0;
   }
 
   .reviews h2 {
@@ -722,7 +713,7 @@ input[type=button] {
       width: 100%;
       text-align: center;
   }
-
+}
 
 /* ============= TABLET - About Page =============== */
 
@@ -765,11 +756,11 @@ input[type=button] {
 
 /* ============= TABLET - FAQ Page =============== */
 
-  .faq .content-wrapper {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
+.faq .content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
 
   .faq-content {
     flex-basis: 40%;
@@ -811,7 +802,6 @@ input[type=button] {
 
   .hero-area h1 {
     font-size: 3em;
-    width: 65%;
   }
 
   /* DESKTOP - Aside */
@@ -827,13 +817,23 @@ input[type=button] {
 
   /* DESKTOP - Features */
 
+  section .features {
+    width: 100%;
+  }
+
   .features h1 {
-    width: 90%;
+    width: 75%;
   }
 
   .features article {
+    width: 100%;
     flex-basis: 30%;
-    margin: 20px 0; 
+    margin-top: 10px;  
+    text-align: center;
+  }
+
+  .features .features-item-description {
+    width: 55%;
   }
 
   /* DESKTOP - Reviews */
