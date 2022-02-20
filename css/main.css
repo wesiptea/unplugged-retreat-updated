@@ -257,7 +257,26 @@ footer .social-icons p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  
+}
+
+.social-icons .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 2.75em;
+  width: 2.75em;
+  background-color: #527158;
+  margin: 15px;
+}
+
+.social-icons i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  line-height: 1.25em;
+  color: white;
 }
 
 footer .copyright {
@@ -452,13 +471,12 @@ input[type=button] {
   margin: 0;
 }
 
-
 /* ========= MOBILE - FAQ page styles ========= */
 
 .faq {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background-color: #527158;
   margin: 0 0 50px 0;
 }
@@ -480,7 +498,8 @@ input[type=button] {
 }
 
 .faq h2 {
-  margin-bottom: 40px;
+  font-size: 2.25em;
+  margin: 0 0 35px 0;
 }
 
 .faq i {
@@ -724,6 +743,10 @@ input[type=button] {
 
   footer .contact {
       margin-bottom: 0;
+  }
+
+  .div circle {
+    margin: 0 20px 0 20px;
   }
 
   footer .copyright {
