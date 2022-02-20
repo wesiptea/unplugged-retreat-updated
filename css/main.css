@@ -350,7 +350,7 @@ input[type=button] {
 
 .features h1 {
   font-size: 2.15em;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
 }
 
 .features article {
@@ -460,7 +460,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   background-color: #527158;
-  margin: 50px 0 50px 0;
+  margin: 0 0 50px 0;
 }
 
 .faq .content-wrapper {
@@ -468,7 +468,14 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  margin: 50px 0;
+}
+
+.faq-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-basis: 95%;
+  flex-flow: column wrap;
 }
 
 .faq h2 {
@@ -477,6 +484,10 @@ input[type=button] {
 
 .faq-content {
   margin-bottom: 50px;
+}
+
+.faq i {
+  font-size: 3.5em;
 }
 
 
@@ -615,7 +626,9 @@ input[type=button] {
   /* TABLET - Hero-area */
 
   .hero-area h1 {
-    font-size: ;
+    font-size: 2.5em;
+    width: 80%;
+    font-weight: bolder;
   }
 
   /* TABLET - Aside */
@@ -634,13 +647,20 @@ input[type=button] {
   }
 
   /* TABLET - Features */
+
+  .features h1 {
+    font-size: 2.25em;
+    width: 100%;
+    font-weight: bolder;
+    margin: 0 0 30px 0;
+  }
+
   .features article {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
-    flex-basis: 45%;
-    margin-right: 15px; 
+    flex-flow: column wrap;
+    flex-basis: 50%;
   }
 
   .features .features-item-description {
@@ -756,14 +776,15 @@ input[type=button] {
 
 /* ============= TABLET - FAQ Page =============== */
 
-.faq .content-wrapper {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
+  .faq .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
 
   .faq-content {
     flex-basis: 40%;
+    flex-flow: column;
   }
 
   .faq h2 {
@@ -817,24 +838,16 @@ input[type=button] {
 
   /* DESKTOP - Features */
 
-  section .features {
-    width: 100%;
-  }
-
   .features h1 {
-    width: 75%;
+    width: 90%;
   }
 
   .features article {
-    width: 100%;
     flex-basis: 30%;
-    margin-top: 10px;  
-    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 40px; 
   }
 
-  .features .features-item-description {
-    width: 55%;
-  }
 
   /* DESKTOP - Reviews */
 
