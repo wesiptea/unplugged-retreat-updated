@@ -307,7 +307,7 @@ footer .copyright {
     font-size: 2.25em;
     font-weight: 700;
     margin: 0;
-    width: 65%;
+    width: 75%;
 }
 
 /* Aside */
@@ -478,7 +478,6 @@ input[type=button] {
   justify-content: center;
   align-items: flex-start;
   background-color: #527158;
-  margin: 0 0 50px 0;
 }
 
 .faq .content-wrapper {
@@ -486,20 +485,25 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  margin: 0 0 50px 0;
 }
 
 .faq-content {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   flex-basis: 95%;
   flex-flow: column wrap;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .faq h2 {
   font-size: 2.25em;
-  margin: 0 0 35px 0;
+  margin: 50px 0 35px 0;
+}
+
+.faq h4 {
+  margin: 10px 0 10px 0;
 }
 
 .faq i {
@@ -604,7 +608,7 @@ input[type=button] {
 
   .content-wrapper {
     max-width: 640px;
-    margin: 100px 0;
+    margin: 80px 0;
   }
 
   /* TABLET - Header */
@@ -732,7 +736,7 @@ input[type=button] {
   /* TABLET - Footer */
   footer .content-wrapper {
       width: 65%;
-      margin: 100px 0;
+      margin: 0 0 30px 0;
   }
   
   .footer-content {
@@ -753,13 +757,12 @@ input[type=button] {
       width: 100%;
       text-align: center;
   }
-}
 
 /* ============= TABLET - About Page =============== */
 
-.mission .content-wrapper {
-  margin: 50px 0;
-} 
+  .mission .content-wrapper {
+    margin: 50px 0;
+  } 
 
 .mission-content {
     display: flex;
@@ -773,10 +776,15 @@ input[type=button] {
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-top: 100px;
   }
 
   .mission p {
     width: 45%;
+  }
+
+  .footer-content {
+    margin-top: 50px;
   }
 
   .contact-section .content-wrapper h2 {
@@ -796,15 +804,21 @@ input[type=button] {
 
 /* ============= TABLET - FAQ Page =============== */
 
+  section .faq {
+    margin: 0;
+  }
+
   .faq .content-wrapper {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin: 30px 0 60px 0;
   }
 
   .faq-content {
     flex-basis: 40%;
     flex-flow: column;
+    margin-bottom: 20px;
   }
 
   .faq h2 {
@@ -881,6 +895,7 @@ input[type=button] {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    margin-top: 50px;
   }
 
 /* ============= DESKTOP - About Page =============== */
