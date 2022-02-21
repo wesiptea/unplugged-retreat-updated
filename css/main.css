@@ -366,6 +366,7 @@ input[type=button] {
   background-repeat: no-repeat;
   background-position: center;
   max-height: 1450px;
+  overflow: auto;
 }
 
 .features h1 {
